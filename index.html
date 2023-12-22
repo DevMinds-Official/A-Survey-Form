@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <main>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatem dolorum aliquam!
+            Consequatur, incidunt officiis dolore alias repudiandae deserunt quis ab nihil nemo voluptate quod!</p>
+            <div class="form_container">
+                <form action="" id="survey-form">
+                    <label id="name-label">Name :&ensp;<input class="input" type="text" id="name" placeholder="Enter your name" required></lable>
+                    <br>
+                    <label id="email-label">Email :&ensp;<input class="input" type="email" id="email" placeholder="Enter your email" required></lable>
+                    <br>
+                    <label id="number-label">number :&ensp;<input class="input" type="number" id="number" placeholder="Enter your number" min="1" max="11" required></lable>
+                    <hr class="hr">
+                   Why you choose us <select name="select" id="dropdown">
+                    <option value="Best Quality">Best Quality</option>
+                    <option value="Due to suggestion">Due to suggestion</option>
+                   </select>
+                   <br>
+                   Male<input type="radio" name="Gender" class="choose">
+                   Female<input type="radio" name="Gender" class="choose">
+                   <br>
+                   Web Development<input type="checkbox" class="choose" name="Web development" id="">
+                   Android Development<input type="checkbox" class="choose" name="Web development" id="">
+                   <hr>
+                   <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Enter your comments here"></textarea>
+                   <hr>
+                   <button type="submit" id="submit">Submit now</button>
+                </form>
+            </div>
+    </main>
+</body>
+
+</html>
