@@ -24,7 +24,7 @@ body{
     border: 2px solid white;
     width: 60vw;
     margin: 20px auto;
-    height: 100vh;
+    height: 100%;
     padding: 15px 15px;
 }
 label{
@@ -39,6 +39,7 @@ label{
     border-radius: 10px;
     padding: 0 5px;
     margin: 12px;
+    color: white;
 }
 .hr{
     background-color: gray;
@@ -68,4 +69,20 @@ button{
     border: 2px solid yellow;
     border-radius: 5px;
 
+}
+@media screen and (max-width : 475px) {
+    .input{
+    width: 10rem;
+    }
+    .checkbox{
+        font-size: 10px;
+    }
+    button{
+        width: 70%;
+    }
+}
+@media screen and (max-width : 300px) {
+    .input{
+    width: 8rem;
+    }
 }
